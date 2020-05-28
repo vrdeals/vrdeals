@@ -7,6 +7,13 @@ body { background: #f1f5f8 !important;}
     padding-top: 70px;
 }
 
+.container_statistics{
+    background-color: white;
+    width: 900px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
 .headline{
     padding-top: 20px;
 }
@@ -14,7 +21,6 @@ body { background: #f1f5f8 !important;}
 .card{
     max-width: 767px;
 }
-
 
 .card-img{
     width: 100% !important;
@@ -34,15 +40,11 @@ body { background: #f1f5f8 !important;}
     text-decoration: underline;
 }
 
-
-
-
 @media (min-width: 767px) {
     .navbar {
         height:50px;
     }
 }
-
 
 @media screen and (max-width: 767px) {
     .navbar-nav {
@@ -60,11 +62,9 @@ body { background: #f1f5f8 !important;}
   display: inline-block;
 }
 
-
 .strike {
     text-decoration:line-through;
 }
-
 
 /* import after the changes */
 @import "bootstrap/functions";
