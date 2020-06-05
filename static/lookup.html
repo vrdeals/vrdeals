@@ -33,7 +33,7 @@ $(document).ready(function(){
 	var stype = $("#searchtype").val();    // value from dropdown menu
 
 	$.ajax({
-    		url: "https://vrdeals.github.io/static/data.json",
+    		url: "./json/data.json",
        		dataType: "text",
         	success: function(data) {
 
@@ -47,16 +47,9 @@ $(document).ready(function(){
 			if (json[i][stype].toLowerCase().includes(sval.toLowerCase())){
 	        	    $('#toutput').append(
 				'<tr><td><a href="https://prancingturtle.com/Encounter/Interaction?id='+ json[i]["Eid"] + '&p=' + json[i]["Pid"] +'&outgoing=True&type=DPS&mode=ability&filter=all" target="_blank">' + json[i]["Date"] + "</a>" +
-				'</td><td>' + json[i].Player +
-				'</td><td>' + json[i].Boss +
-				'</td><td>' + json[i].Class +
-				'</td><td>' + json[i].Role +
-				'</td><td>' + json[i].Guild +
-				'</td><td>' + json[i]["ST DPS"] +
-				'</td><td>' + json[i].HPS +
-				'</td><td>' + json[i].THPS +
-				'</td><td>' + json[i].APS +
-				'</td><td>' + json[i]["Time for Boss"] + ' | ' + json[i]["Total Time"] +
+				'</td><td>' + json[i]. +
+				'</td><td>' + json[i].Title +
+				'</td><td>' + json[i].SalePrice +
 				'</td></tr>');
 			}
 		}
@@ -247,16 +240,8 @@ th{
             <thead>
             <tr>
                 <th>Date</th>
-                <th>Name</th>
-                <th>Boss</th>
-                <th>Class</th>
-                <th>Role</th>
-                <th>Guild</th>
-                <th>ST DPS</th>
-                <th>HPS</th>
-                <th>THPS</th>
-                <th>APS</th>
-                <th>Time</th>
+                <th>Title</th>
+                <th>SalePrice</th>
             </tr>
             </thead>
             <tbody id="toutput">

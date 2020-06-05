@@ -1,34 +1,7 @@
 [
   {
     "Date": "2020-02-21", 
-    "Guild": "Freaks on a Leash", 
-    "Boss": "Azranel", 
-    "Player": "Killerloose", 
-    "Class": "Cleric", 
-    "Role": "dps", 
-    "ST DPS": "2.042.574", 
-    "HPS": "6.473", 
-    "THPS": "11.538", 
-    "APS": "1.961", 
-    "Time for Boss": "02:27", 
-    "Total Time": "02:27", 
-    "Eid": "210251", 
-    "Pid": "53517"
-  },
-  {
-    "Date": "2020-05-28", 
-    "Guild": "Pickup Squads", 
-    "Boss": "Titan X", 
-    "Player": "Gadria", 
-    "Class": "Primalist", 
-    "Role": "tank/dps/support", 
-    "ST DPS": "183.808", 
-    "HPS": "10.781", 
-    "THPS": "90.493", 
-    "APS": "9.087", 
-    "Time for Boss": "03:11", 
-    "Total Time": "07:18", 
-    "Eid": "212187", 
-    "Pid": "149735"
+    "Title": "Freaks on a Leash",
+    "SalePrice": "22.20"
   }
 ]
