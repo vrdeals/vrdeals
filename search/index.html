@@ -96,7 +96,7 @@
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
             const search = urlParams.get('search');
-            data = data.filter(val => val.article_name.includes(search))
+            data = data.filter(val => val.article_name.toLowerCase().includes(search.toLowerCase()))
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
                 div.innerHTML = "<li><a href='" + data[i].id + "'>" + data[i].article_name + "</a></li>";
