@@ -157,6 +157,13 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 
+<script type="text/javascript">
+function alertInputValue(){
+  search = document.getElementById('search').value;
+  window.open("/search/?search=" + search, "_self");
+}
+</script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

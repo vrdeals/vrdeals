@@ -79,6 +79,19 @@
 <!-- Normal Content Zone -->
   
 <div class="container">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <div class="search">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
+      <div class="input-group-append">
+        <button class="btn btn-secondary" type="button" onclick="alertInputValue()">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
   
   
   
@@ -108,8 +121,10 @@
                   <span class="badge badge-dark strike">289.00€</span>
                   <span class="badge badge-secondary">-31%</span><br>
                 </h6>
-                <a href="https://www.amazon.de/dp/B07K2PT733/" target="_blank" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Zum Angebot</a>
-                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Diskussion</a>
+                <a href="https://www.amazon.de/dp/B07K2PT733/" target="_blank" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Zum Angebot</a>
+                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Diskussion</a>
               </div>
             </div>
           </div>
@@ -145,8 +160,10 @@
                   <span class="badge badge-dark strike">289.00€</span>
                   <span class="badge badge-secondary">-31%</span><br>
                 </h6>
-                <a href="https://www.mediamarkt.de/de/product/_sony-playstation-vr-camera-vr-worlds-voucher-2495540.html" target="_blank" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Zum Angebot</a>
-                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Diskussion</a>
+                <a href="https://www.mediamarkt.de/de/product/_sony-playstation-vr-camera-vr-worlds-voucher-2495540.html" target="_blank" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Zum Angebot</a>
+                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Diskussion</a>
               </div>
             </div>
           </div>
@@ -180,8 +197,10 @@
                   <span class="badge badge-dark strike">319.00€</span>
                   <span class="badge badge-secondary">-28%</span><br>
                 </h6>
-                <a href="https://www.mediamarkt.de/de/product/_sony-playstation-vr-mega-pack-2-playstation-vr-playstation-camera-5-spiele-voucher-2602037.html" target="_blank" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Zum Angebot</a>
-                <a href="/disqus/id-119" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Diskussion</a>
+                <a href="https://www.mediamarkt.de/de/product/_sony-playstation-vr-mega-pack-2-playstation-vr-playstation-camera-5-spiele-voucher-2602037.html" target="_blank" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Zum Angebot</a>
+                <a href="/disqus/id-119" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Diskussion</a>
               </div>
             </div>
           </div>
@@ -217,8 +236,10 @@
                   <span class="badge badge-dark strike">319.00€</span>
                   <span class="badge badge-secondary">-28%</span><br>
                 </h6>
-                <a href="https://www.saturn.de/de/product/_sony-playstation-vr-mega-pack-2-playstation-vr-playstation-camera-5-spiele-voucher-2602037.html" target="_blank" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Zum Angebot</a>
-                <a href="/disqus/id-119" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Diskussion</a>
+                <a href="https://www.saturn.de/de/product/_sony-playstation-vr-mega-pack-2-playstation-vr-playstation-camera-5-spiele-voucher-2602037.html" target="_blank" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Zum Angebot</a>
+                <a href="/disqus/id-119" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Diskussion</a>
               </div>
             </div>
           </div>
@@ -252,8 +273,10 @@
                   <span class="badge badge-dark strike">289.00€</span>
                   <span class="badge badge-secondary">-31%</span><br>
                 </h6>
-                <a href="https://www.saturn.de/de/product/_sony-playstation-vr-camera-vr-worlds-voucher-2495540.html" target="_blank" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Zum Angebot</a>
-                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button" aria-pressed="true">Diskussion</a>
+                <a href="https://www.saturn.de/de/product/_sony-playstation-vr-camera-vr-worlds-voucher-2495540.html" target="_blank" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Zum Angebot</a>
+                <a href="/disqus/id-1" class="btn btn-outline-success btn-sm" role="button"
+                   aria-pressed="true">Diskussion</a>
               </div>
             </div>
           </div>
@@ -276,6 +299,13 @@
 </div>
 
 
+
+<script type="text/javascript">
+function alertInputValue(){
+  search = document.getElementById('search').value;
+  window.open("/search/?search=" + search, "_self");
+}
+</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
