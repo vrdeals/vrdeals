@@ -82,16 +82,17 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <div class="search">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
-      <div class="input-group-append">
-        <button class="btn btn-secondary" type="button" onclick="alertInputValue()">
-          <i class="fa fa-search"></i>
-        </button>
+    <form class="navbar-form" role="search" action="/search/">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
+        <div class="input-group-append">
+          <button class="btn btn-secondary" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
-
   
   
   
@@ -147,13 +148,6 @@
 </div>
 
 
-
-<script type="text/javascript">
-function alertInputValue(){
-  search = document.getElementById('search').value;
-  window.open("/search/?search=" + search, "_self");
-}
-</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

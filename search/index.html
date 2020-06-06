@@ -82,14 +82,16 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <div class="search">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
-      <div class="input-group-append">
-        <button class="btn btn-secondary" type="button" onclick="alertInputValue()">
-          <i class="fa fa-search"></i>
-        </button>
+    <form class="navbar-form" role="search" action="/search/">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
+        <div class="input-group-append">
+          <button class="btn btn-secondary" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
   <h5 class="headline">Suchergebnisse:</h5>
   <div id="myData"></div>
@@ -112,22 +114,16 @@
             data = data.filter(val => val.article_name.toLowerCase().includes(search.toLowerCase()))
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
-                div.innerHTML = "<li><a href='/disqus/id-" + data[i].id + "/'>" + data[i].article_name + "</a></li>";
+                div.innerHTML = "<li><a href='/disqus/id-" + data[i].id + "/' class='card-link'>" + data[i].article_name + "</a></li>";
                 mainContainer.appendChild(div);
             }
         }
+
 
   </script>
 </div>
 
 
-
-<script type="text/javascript">
-function alertInputValue(){
-  search = document.getElementById('search').value;
-  window.open("/search/?search=" + search, "_self");
-}
-</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

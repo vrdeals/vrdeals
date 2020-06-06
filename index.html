@@ -82,16 +82,17 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <div class="search">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
-      <div class="input-group-append">
-        <button class="btn btn-secondary" type="button" onclick="alertInputValue()">
-          <i class="fa fa-search"></i>
-        </button>
+    <form class="navbar-form" role="search" action="/search/">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Suche" name="search" id="search">
+        <div class="input-group-append">
+          <button class="btn btn-secondary" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
-
   
   
   
@@ -1007,17 +1008,17 @@
         <a href="/page-9/"
            class="page-link"
            aria-label=>
-          <span aria-hidden="true">...</span>
-          <span class="sr-only">...</span>
+          <span aria-hidden="true">9</span>
+          <span class="sr-only">9</span>
         </a>
       </li>
       
       <li class="page-item ">
-        <a href="/page-12/"
+        <a href="/page-10/"
            class="page-link"
            aria-label=>
-          <span aria-hidden="true">12</span>
-          <span class="sr-only">12</span>
+          <span aria-hidden="true">10</span>
+          <span class="sr-only">10</span>
         </a>
       </li>
       
@@ -1038,13 +1039,6 @@
 </div>
 
 
-
-<script type="text/javascript">
-function alertInputValue(){
-  search = document.getElementById('search').value;
-  window.open("/search/?search=" + search, "_self");
-}
-</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
