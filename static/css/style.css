@@ -17,6 +17,7 @@ body { background: #f1f5f8 !important;}
     width: 900px;
     padding-top: 50px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .headline{
@@ -120,4 +121,24 @@ MAIN {
 
 .navbar-hide {
     top: -156px;
+}
+
+.search {
+    padding-top: 10px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }
