@@ -12,6 +12,10 @@
         "article_name": "A Chair in a Room : Greenwater"
     },
     {
+        "id": 276,
+        "article_name": "Above - VR"
+    },
+    {
         "id": 230,
         "article_name": "Accounting+"
     },
@@ -22,6 +26,10 @@
     {
         "id": 20,
         "article_name": "Aeon"
+    },
+    {
+        "id": 274,
+        "article_name": "Aery VR"
     },
     {
         "id": 184,
@@ -52,6 +60,10 @@
         "article_name": "Apocalypse Rider Rift"
     },
     {
+        "id": 269,
+        "article_name": "AppGameKit Classic - VR"
+    },
+    {
         "id": 187,
         "article_name": "Arena Blood On the Sand"
     },
@@ -60,12 +72,24 @@
         "article_name": "ArtPulse"
     },
     {
+        "id": 310,
+        "article_name": "Astronaut VR"
+    },
+    {
         "id": 149,
         "article_name": "AVOlight.Space (Multiple Video Players)"
     },
     {
         "id": 64,
         "article_name": "Baby Shark VR Dancing"
+    },
+    {
+        "id": 275,
+        "article_name": "Backgammon, Chess & Checkers"
+    },
+    {
+        "id": 281,
+        "article_name": "BAD BILLY 2D VR"
     },
     {
         "id": 155,
@@ -92,6 +116,10 @@
         "article_name": "Big Breezy Boat"
     },
     {
+        "id": 302,
+        "article_name": "Bike Rush"
+    },
+    {
         "id": 215,
         "article_name": "BIONIC HUNTER"
     },
@@ -112,8 +140,20 @@
         "article_name": "Boiling Steel"
     },
     {
+        "id": 253,
+        "article_name": "Boogeyman"
+    },
+    {
+        "id": 254,
+        "article_name": "Boogeyman 2"
+    },
+    {
         "id": 68,
         "article_name": "Box:Boxing"
+    },
+    {
+        "id": 262,
+        "article_name": "Bullet Roulette VR"
     },
     {
         "id": 54,
@@ -130,6 +170,10 @@
     {
         "id": 205,
         "article_name": "Car Parking Simulator"
+    },
+    {
+        "id": 268,
+        "article_name": "Carpe Lucem - Seize The Light VR"
     },
     {
         "id": 51,
@@ -152,8 +196,28 @@
         "article_name": "Chess Ultra"
     },
     {
+        "id": 279,
+        "article_name": "Cinderella VR"
+    },
+    {
+        "id": 296,
+        "article_name": "Cinderella VR Game"
+    },
+    {
+        "id": 307,
+        "article_name": "City Avenger"
+    },
+    {
+        "id": 316,
+        "article_name": "City Defender"
+    },
+    {
         "id": 180,
         "article_name": "CLIMB FOR YOUR LIFE!!!44!"
+    },
+    {
+        "id": 284,
+        "article_name": "Coaster"
     },
     {
         "id": 24,
@@ -212,6 +276,10 @@
         "article_name": "Cubeland VR"
     },
     {
+        "id": 273,
+        "article_name": "Cucumber Defense VR"
+    },
+    {
         "id": 191,
         "article_name": "CURSED NIGHT - The House"
     },
@@ -228,6 +296,10 @@
         "article_name": "Dancing with Anime Girls 2"
     },
     {
+        "id": 267,
+        "article_name": "Dancing with Anime Girls VR"
+    },
+    {
         "id": 63,
         "article_name": "Danger Course VR"
     },
@@ -236,12 +308,40 @@
         "article_name": "Dark Legend"
     },
     {
+        "id": 277,
+        "article_name": "Dark Nebula VR"
+    },
+    {
+        "id": 303,
+        "article_name": "Dead Moon - Revenge on Phobos"
+    },
+    {
         "id": 61,
         "article_name": "Death Gasp VR"
     },
     {
+        "id": 271,
+        "article_name": "Deep Diving VR"
+    },
+    {
+        "id": 245,
+        "article_name": "Detached"
+    },
+    {
+        "id": 246,
+        "article_name": "Detached: Non-VR Edition"
+    },
+    {
         "id": 91,
         "article_name": "Devil and the Fairy"
+    },
+    {
+        "id": 288,
+        "article_name": "Dick Wilde"
+    },
+    {
+        "id": 290,
+        "article_name": "Dick Wilde 2"
     },
     {
         "id": 192,
@@ -258,6 +358,14 @@
     {
         "id": 220,
         "article_name": "Disco Time 80s VR"
+    },
+    {
+        "id": 299,
+        "article_name": "Divinity Defence"
+    },
+    {
+        "id": 315,
+        "article_name": "Divinity Defense"
     },
     {
         "id": 196,
@@ -280,6 +388,18 @@
         "article_name": "Drum Smith"
     },
     {
+        "id": 255,
+        "article_name": "Dungeon Escape VR"
+    },
+    {
+        "id": 264,
+        "article_name": "DUO"
+    },
+    {
+        "id": 293,
+        "article_name": "Escape Legacy"
+    },
+    {
         "id": 127,
         "article_name": "Escape: VR"
     },
@@ -290,6 +410,10 @@
     {
         "id": 84,
         "article_name": "EVERYDAY GOLF VR"
+    },
+    {
+        "id": 318,
+        "article_name": "Evil Silent"
     },
     {
         "id": 195,
@@ -312,8 +436,20 @@
         "article_name": "Fear Incarnate"
     },
     {
+        "id": 280,
+        "article_name": "FIGHT BALL - BOXING VR"
+    },
+    {
+        "id": 287,
+        "article_name": "Final Goalie: Football simulator"
+    },
+    {
         "id": 121,
         "article_name": "Fire Safety Lab VR"
+    },
+    {
+        "id": 308,
+        "article_name": "FireZone"
     },
     {
         "id": 78,
@@ -342,6 +478,14 @@
     {
         "id": 154,
         "article_name": "Frog & Froggie"
+    },
+    {
+        "id": 257,
+        "article_name": "Frosty Nights"
+    },
+    {
+        "id": 292,
+        "article_name": "Fruit War"
     },
     {
         "id": 147,
@@ -380,12 +524,20 @@
         "article_name": "Groundhog Day: Like Father Like Son"
     },
     {
+        "id": 313,
+        "article_name": "Haunted House"
+    },
+    {
         "id": 233,
         "article_name": "HelixVision"
     },
     {
         "id": 235,
         "article_name": "Hellblade: Senua's Sacrifice"
+    },
+    {
+        "id": 263,
+        "article_name": "Hex Defense"
     },
     {
         "id": 102,
@@ -404,12 +556,20 @@
         "article_name": "HordeZ"
     },
     {
+        "id": 309,
+        "article_name": "Horror Asylum ULTIMATE"
+    },
+    {
         "id": 170,
         "article_name": "Horror Nights Story"
     },
     {
         "id": 11,
         "article_name": "House of the Dying Sun"
+    },
+    {
+        "id": 306,
+        "article_name": "Human Anatomy VR Complete Edition"
     },
     {
         "id": 157,
@@ -424,12 +584,28 @@
         "article_name": "J15 Jet Fighter VR (\u6b7c15\u8230\u8f7d\u673a)"
     },
     {
+        "id": 270,
+        "article_name": "JetX VR"
+    },
+    {
         "id": 37,
         "article_name": "Jigsaw 360"
     },
     {
+        "id": 301,
+        "article_name": "Journey to Alien Worlds"
+    },
+    {
+        "id": 250,
+        "article_name": "Karnage Chronicles"
+    },
+    {
         "id": 30,
         "article_name": "Key Of Impasse"
+    },
+    {
+        "id": 266,
+        "article_name": "King Kaiju"
     },
     {
         "id": 128,
@@ -468,6 +644,10 @@
         "article_name": "Lolly Pang VR"
     },
     {
+        "id": 282,
+        "article_name": "Lost In Ferry VR"
+    },
+    {
         "id": 202,
         "article_name": "Lost in time"
     },
@@ -486,6 +666,10 @@
     {
         "id": 129,
         "article_name": "Mars Flight VR"
+    },
+    {
+        "id": 265,
+        "article_name": "Maze Run VR"
     },
     {
         "id": 83,
@@ -516,8 +700,16 @@
         "article_name": "M\u00fchle VR: Nine Men's Morris"
     },
     {
+        "id": 251,
+        "article_name": "Narcosis"
+    },
+    {
         "id": 109,
         "article_name": "Neon Blast VR"
+    },
+    {
+        "id": 305,
+        "article_name": "Neverout"
     },
     {
         "id": 31,
@@ -530,6 +722,14 @@
     {
         "id": 42,
         "article_name": "Nevrosa: Spider Song"
+    },
+    {
+        "id": 252,
+        "article_name": "NIGHTSTAR: Alliance"
+    },
+    {
+        "id": 261,
+        "article_name": "Noise"
     },
     {
         "id": 167,
@@ -552,12 +752,20 @@
         "article_name": "Orbatron"
     },
     {
+        "id": 304,
+        "article_name": "Overflight"
+    },
+    {
         "id": 236,
         "article_name": "Overload"
     },
     {
         "id": 82,
         "article_name": "OVERVIEW: a Walk Through the Universe"
+    },
+    {
+        "id": 317,
+        "article_name": "Oxygen Dreams"
     },
     {
         "id": 193,
@@ -574,6 +782,10 @@
     {
         "id": 105,
         "article_name": "ParkingVR"
+    },
+    {
+        "id": 260,
+        "article_name": "Party Pumper"
     },
     {
         "id": 95,
@@ -628,6 +840,10 @@
         "article_name": "Project CARS 2"
     },
     {
+        "id": 294,
+        "article_name": "PROZE: Aufkl\u00e4rung"
+    },
+    {
         "id": 53,
         "article_name": "Puzzle of Santa Girl VR"
     },
@@ -642,6 +858,10 @@
     {
         "id": 222,
         "article_name": "Rainbow Reactor"
+    },
+    {
+        "id": 249,
+        "article_name": "Red Matter"
     },
     {
         "id": 103,
@@ -670,6 +890,18 @@
     {
         "id": 19,
         "article_name": "Robinson: The Journey"
+    },
+    {
+        "id": 278,
+        "article_name": "RollerPlay"
+    },
+    {
+        "id": 319,
+        "article_name": "RotatorX"
+    },
+    {
+        "id": 286,
+        "article_name": "SACRALITH: The Archer`s Tale"
     },
     {
         "id": 60,
@@ -708,6 +940,10 @@
         "article_name": "SILICON RISING"
     },
     {
+        "id": 291,
+        "article_name": "Sky Duel: Tournament"
+    },
+    {
         "id": 148,
         "article_name": "SkydiVeR"
     },
@@ -728,8 +964,24 @@
         "article_name": "Space Maze"
     },
     {
+        "id": 298,
+        "article_name": "Space Ops: Reloaded"
+    },
+    {
+        "id": 311,
+        "article_name": "Space Says"
+    },
+    {
+        "id": 272,
+        "article_name": "Space Slingshot VR"
+    },
+    {
         "id": 164,
         "article_name": "Space Turret Gunner"
+    },
+    {
+        "id": 256,
+        "article_name": "Spacescape"
     },
     {
         "id": 18,
@@ -742,6 +994,14 @@
     {
         "id": 72,
         "article_name": "Step Up 2020"
+    },
+    {
+        "id": 297,
+        "article_name": "Stranded"
+    },
+    {
+        "id": 314,
+        "article_name": "Stunt Kite Masters"
     },
     {
         "id": 9,
@@ -764,8 +1024,24 @@
         "article_name": "Tanky Tanks VR"
     },
     {
+        "id": 247,
+        "article_name": "Telefrag VR"
+    },
+    {
+        "id": 258,
+        "article_name": "Temple of Aluxes"
+    },
+    {
         "id": 171,
         "article_name": "TetrotronVR"
+    },
+    {
+        "id": 289,
+        "article_name": "The Cathedral: Allison's Diary"
+    },
+    {
+        "id": 259,
+        "article_name": "The God"
     },
     {
         "id": 86,
@@ -810,6 +1086,10 @@
     {
         "id": 6,
         "article_name": "TimeLock VR"
+    },
+    {
+        "id": 295,
+        "article_name": "Townsmen VR"
     },
     {
         "id": 168,
@@ -866,6 +1146,10 @@
     {
         "id": 150,
         "article_name": "Viking Days"
+    },
+    {
+        "id": 312,
+        "article_name": "virtual MINIGOLF reality"
     },
     {
         "id": 140,
@@ -952,12 +1236,20 @@
         "article_name": "Whale Rock Bundle"
     },
     {
+        "id": 300,
+        "article_name": "Wheel Rush"
+    },
+    {
         "id": 104,
         "article_name": "Where's Om Nom?"
     },
     {
         "id": 216,
         "article_name": "World of Mazes: Chapter 2 - Secrets of the Ancients"
+    },
+    {
+        "id": 285,
+        "article_name": "WORLDS at WAR"
     },
     {
         "id": 240,
@@ -974,5 +1266,13 @@
     {
         "id": 99,
         "article_name": "Zed Shot"
+    },
+    {
+        "id": 248,
+        "article_name": "Zero Caliber VR"
+    },
+    {
+        "id": 283,
+        "article_name": "Zuma Legend VR"
     }
 ]
