@@ -264,6 +264,10 @@
         "article_name": "Crazy VR Dance Party"
     },
     {
+        "id": 327,
+        "article_name": "Crisis VRigade"
+    },
+    {
         "id": 243,
         "article_name": "Crisis VRigade 2"
     },
@@ -398,6 +402,14 @@
     {
         "id": 264,
         "article_name": "DUO"
+    },
+    {
+        "id": 325,
+        "article_name": "Elite Dangerous"
+    },
+    {
+        "id": 326,
+        "article_name": "Elite Dangerous: Horizons Season Pass"
     },
     {
         "id": 293,
@@ -788,6 +800,10 @@
         "article_name": "PANTY SLIDE VR"
     },
     {
+        "id": 329,
+        "article_name": "Paradise Checkers VR"
+    },
+    {
         "id": 105,
         "article_name": "ParkingVR"
     },
@@ -1162,6 +1178,10 @@
     {
         "id": 12,
         "article_name": "Vanishing Realms\u2122"
+    },
+    {
+        "id": 328,
+        "article_name": "Vehicle"
     },
     {
         "id": 150,
