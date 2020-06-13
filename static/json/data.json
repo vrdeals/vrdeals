@@ -72,6 +72,10 @@
         "article_name": "ArtPulse"
     },
     {
+        "id": 362,
+        "article_name": "ASTRO BOT Rescue Mission\u2122"
+    },
+    {
         "id": 310,
         "article_name": "Astronaut VR"
     },
@@ -104,6 +108,10 @@
         "article_name": "Basketball Madness"
     },
     {
+        "id": 367,
+        "article_name": "Batman\u2122: Arkham VR"
+    },
+    {
         "id": 96,
         "article_name": "Battle of Red Cliffs VR"
     },
@@ -132,6 +140,10 @@
         "article_name": "Bizarre Barber"
     },
     {
+        "id": 357,
+        "article_name": "Blood and Truth\u2122"
+    },
+    {
         "id": 165,
         "article_name": "Board and Ball"
     },
@@ -152,8 +164,16 @@
         "article_name": "Boogeyman 2"
     },
     {
+        "id": 360,
+        "article_name": "Borderlands 2 VR"
+    },
+    {
         "id": 68,
         "article_name": "Box:Boxing"
+    },
+    {
+        "id": 365,
+        "article_name": "Bravo Team"
     },
     {
         "id": 343,
@@ -384,6 +404,10 @@
         "article_name": "DiRT Rally 2.0 +  DiRT Rally + others"
     },
     {
+        "id": 372,
+        "article_name": "DiRT Rally\u00ae PLAYSTATION\u00aeVR UPGRADE DLC ADD-ON"
+    },
+    {
         "id": 120,
         "article_name": "Disc Ninja"
     },
@@ -456,6 +480,10 @@
         "article_name": "Escape: VR"
     },
     {
+        "id": 358,
+        "article_name": "Everybody\u2019s Golf\u2122 VR"
+    },
+    {
         "id": 137,
         "article_name": "Everyday Baseball VR"
     },
@@ -480,6 +508,10 @@
         "article_name": "Far Beyond: A space odyssey VR"
     },
     {
+        "id": 373,
+        "article_name": "Farpoint"
+    },
+    {
         "id": 351,
         "article_name": "Fast and Low"
     },
@@ -502,6 +534,10 @@
     {
         "id": 121,
         "article_name": "Fire Safety Lab VR"
+    },
+    {
+        "id": 363,
+        "article_name": "Firewall Zero Hour\u2122"
     },
     {
         "id": 308,
@@ -578,6 +614,10 @@
     {
         "id": 85,
         "article_name": "Groundhog Day: Like Father Like Son"
+    },
+    {
+        "id": 368,
+        "article_name": "Hatsune Miku: Project DIVA X"
     },
     {
         "id": 313,
@@ -658,6 +698,14 @@
     {
         "id": 30,
         "article_name": "Key Of Impasse"
+    },
+    {
+        "id": 359,
+        "article_name": "Killing Floor: Double Feature"
+    },
+    {
+        "id": 364,
+        "article_name": "Killing Floor: Incursion"
     },
     {
         "id": 266,
@@ -776,6 +824,10 @@
         "article_name": "Narcosis"
     },
     {
+        "id": 370,
+        "article_name": "NBA 2KVR Erlebnis"
+    },
+    {
         "id": 109,
         "article_name": "Neon Blast VR"
     },
@@ -884,6 +936,14 @@
         "article_name": "Personal Disco VR"
     },
     {
+        "id": 371,
+        "article_name": "Pinball FX2 VR"
+    },
+    {
+        "id": 356,
+        "article_name": "Pinball FX2 VR Ultimate Bundle"
+    },
+    {
         "id": 118,
         "article_name": "Ping Pong"
     },
@@ -982,6 +1042,10 @@
     {
         "id": 178,
         "article_name": "Revolver Widow"
+    },
+    {
+        "id": 369,
+        "article_name": "Rez Infinite"
     },
     {
         "id": 211,
@@ -1152,12 +1216,20 @@
         "article_name": "Temple of Aluxes"
     },
     {
+        "id": 361,
+        "article_name": "Tetris\u00ae Effect"
+    },
+    {
         "id": 171,
         "article_name": "TetrotronVR"
     },
     {
         "id": 289,
         "article_name": "The Cathedral: Allison's Diary"
+    },
+    {
+        "id": 366,
+        "article_name": "The Elder Scrolls V: Skyrim\u00ae VR"
     },
     {
         "id": 259,
