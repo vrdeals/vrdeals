@@ -28,6 +28,10 @@
         "article_name": "Acron: Attack of the Squirrels!"
     },
     {
+        "id": 417,
+        "article_name": "Adrift and Alone"
+    },
+    {
         "id": 20,
         "article_name": "Aeon"
     },
@@ -124,6 +128,10 @@
         "article_name": "Battle of Red Cliffs VR"
     },
     {
+        "id": 404,
+        "article_name": "Battlewake"
+    },
+    {
         "id": 206,
         "article_name": "Beat Blaster"
     },
@@ -214,6 +222,10 @@
     {
         "id": 205,
         "article_name": "Car Parking Simulator"
+    },
+    {
+        "id": 409,
+        "article_name": "Carly and the Reaperman: Escape from the Underworld"
     },
     {
         "id": 268,
@@ -308,6 +320,10 @@
         "article_name": "Contractors"
     },
     {
+        "id": 407,
+        "article_name": "Contractors VR"
+    },
+    {
         "id": 40,
         "article_name": "Crazy VR Dance Party"
     },
@@ -378,6 +394,10 @@
     {
         "id": 61,
         "article_name": "Death Gasp VR"
+    },
+    {
+        "id": 403,
+        "article_name": "Death Horizon: Reloaded"
     },
     {
         "id": 271,
@@ -652,6 +672,10 @@
         "article_name": "Groundhog Day: Like Father Like Son"
     },
     {
+        "id": 405,
+        "article_name": "Guns'n'Stories: Bulletproof VR"
+    },
+    {
         "id": 368,
         "article_name": "Hatsune Miku: Project DIVA X"
     },
@@ -752,8 +776,16 @@
         "article_name": "Journey to Alien Worlds"
     },
     {
+        "id": 418,
+        "article_name": "Jurassic Island"
+    },
+    {
         "id": 250,
         "article_name": "Karnage Chronicles"
+    },
+    {
+        "id": 413,
+        "article_name": "Kev's Compulsion"
     },
     {
         "id": 30,
@@ -956,6 +988,10 @@
         "article_name": "Overload"
     },
     {
+        "id": 415,
+        "article_name": "Overtake : Traffic Racing"
+    },
+    {
         "id": 82,
         "article_name": "OVERVIEW: a Walk Through the Universe"
     },
@@ -974,6 +1010,10 @@
     {
         "id": 57,
         "article_name": "PANTY SLIDE VR"
+    },
+    {
+        "id": 411,
+        "article_name": "Panzer Panic"
     },
     {
         "id": 329,
@@ -1020,6 +1060,10 @@
         "article_name": "Pirates of the Asteroid Belt VR"
     },
     {
+        "id": 422,
+        "article_name": "Pitpat Plan"
+    },
+    {
         "id": 124,
         "article_name": "PlanetariumVR"
     },
@@ -1052,6 +1096,10 @@
         "article_name": "Prison Boss VR"
     },
     {
+        "id": 420,
+        "article_name": "Pro Gun"
+    },
+    {
         "id": 123,
         "article_name": "Project CARS 2"
     },
@@ -1066,6 +1114,10 @@
     {
         "id": 294,
         "article_name": "PROZE: Aufkl\u00e4rung"
+    },
+    {
+        "id": 412,
+        "article_name": "Puzzle 360\u00b0"
     },
     {
         "id": 53,
@@ -1092,6 +1144,10 @@
         "article_name": "Rainbow Reactor"
     },
     {
+        "id": 408,
+        "article_name": "Raw Data"
+    },
+    {
         "id": 249,
         "article_name": "Red Matter"
     },
@@ -1102,6 +1158,10 @@
     {
         "id": 111,
         "article_name": "REFLEX UNIT 2"
+    },
+    {
+        "id": 416,
+        "article_name": "Relic Seeker: Hypogeum"
     },
     {
         "id": 374,
@@ -1248,6 +1308,10 @@
         "article_name": "Spacescape"
     },
     {
+        "id": 406,
+        "article_name": "Sprint Vector"
+    },
+    {
         "id": 18,
         "article_name": "STAND OUT : VR Battle Royale"
     },
@@ -1360,12 +1424,20 @@
         "article_name": "The Rabbit Hole"
     },
     {
+        "id": 421,
+        "article_name": "The Stars Between Us"
+    },
+    {
         "id": 144,
         "article_name": "The Steadfast VR Challenge"
     },
     {
         "id": 14,
         "article_name": "The Town of Light"
+    },
+    {
+        "id": 410,
+        "article_name": "The Villa: Allison's Diary"
     },
     {
         "id": 131,
@@ -1378,6 +1450,10 @@
     {
         "id": 135,
         "article_name": "Thief Simulator VR"
+    },
+    {
+        "id": 414,
+        "article_name": "Thumper"
     },
     {
         "id": 26,
@@ -1446,6 +1522,10 @@
     {
         "id": 328,
         "article_name": "Vehicle"
+    },
+    {
+        "id": 419,
+        "article_name": "Vertigo!"
     },
     {
         "id": 150,
