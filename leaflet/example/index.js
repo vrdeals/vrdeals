@@ -24,7 +24,7 @@
     // add layer control object
     L.control.layers({}, {
       'Kreise': layerCountries(map, rc),
-      'Bounds': layerBounds(map, rc, img),
+      //'Bounds': layerBounds(map, rc, img),
       'Info': layerGeo(map, rc),
       'Flächen': layerCircles(map, rc)
     }).addTo(map)
