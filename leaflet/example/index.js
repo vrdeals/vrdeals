@@ -59,7 +59,7 @@
       var marker = L.marker(rc.unproject(coord)
       )
         .addTo(layerBounds)
-      marker.bindPopup('[' + Math.floor(coord.x) + ',' + Math.floor(coord.y) + ']')
+      marker.bindTooltip('[' + Math.floor(coord.x) + ',' + Math.floor(coord.y) + ']')
         .openPopup()
     })
     return layerBounds
@@ -78,7 +78,7 @@
       // add a popup content to the marker
       onEachFeature: function (feature, layer) {
         if (feature.properties && feature.properties.name) {
-          layer.bindPopup(feature.properties.name)
+          layer.bindTooltip(feature.properties.name)
         }
       },
       pointToLayer: function (feature, latlng) {
@@ -119,7 +119,7 @@
       // add a popup content to the marker
       onEachFeature: function (feature, layer) {
         if (feature.properties && feature.properties.name) {
-          layer.bindPopup(feature.properties.name)
+          layer.bindTooltip(feature.properties.name)
         }
       },
       pointToLayer: function (feature, latlng) {
