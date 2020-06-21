@@ -39,14 +39,6 @@
     // add leaflet-geoman controls with some options to the map
     map.pm.addControls({
     position: 'topleft',
-    drawMarker: false,
-    drawCircle: false,
-    drawPolyline: false,
-    drawRectangle:false,
-    drawPolygon: false,
-    editMode: false,
-    drawCircleMarker: false,
-    cutPolygon: false,
     });
     map.pm.setLang('de');
   }
