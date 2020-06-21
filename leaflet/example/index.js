@@ -19,7 +19,7 @@
     var rc = new L.RasterCoords(map, img)
 
     // set the view on a marker ...
-    map.setView(rc.unproject([1589, 1447]), 3)
+    map.setView(rc.unproject([1589, 1447]), 2)
 
     // add layer control object
     L.control.layers({}, {
@@ -35,11 +35,25 @@
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true
     }).addTo(map)
+
+    // add leaflet-geoman controls with some options to the map
+    map.pm.addControls({
+    position: 'topleft',
+    drawMarker: false,
+    drawCircle: false,
+    drawPolyline: false,
+    drawRectangle:false,
+    drawPolygon: false,
+    editMode: false,
+    drawCircleMarker: false,
+    cutPolygon: false,
+    });
+    map.pm.setLang('de');
   }
 
   /**
    * layer with markers
-   */
+  */
   function layerBounds (map, rc, img) {
     // set marker at the image bound edges
     var layerBounds = L.layerGroup([])
@@ -50,15 +64,15 @@
       // to obtain raster coordinates from the map use `project`
       var coord = rc.project(event.latlng)
       // to set a marker, ... in raster coordinates in the map use `unproject`
-      var marker = L.marker(rc.unproject(coord),{draggable: true, autoPan: true}
+      var marker = L.marker(rc.unproject(coord)
       )
         .addTo(layerBounds)
       marker.bindPopup('[' + Math.floor(coord.x) + ',' + Math.floor(coord.y) + ']')
         .openPopup()
     })
-
     return layerBounds
   }
+ 
 
   /**
    * layer using geoJson data for countries adding a circle marker
