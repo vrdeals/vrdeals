@@ -10,7 +10,7 @@
 
     <style>
 
-      #chart {
+      #chart, #chart2 {
         max-width: 650px;
         margin: 35px auto;
       }
@@ -41,6 +41,7 @@
 
   <body>
      <div id="chart"></div>
+     <div id="chart2"></div>
 
     <script>
 
@@ -56,7 +57,7 @@
                }
             }],
             zoom: {
-              enabled: true
+              enabled: false
             },
           },
           colors: ['#d70e4a', '#77B6EA', '#545454'],
@@ -65,6 +66,9 @@
           },
           title: {
             text: 'Steam VR Nutzung aller VR only Spiele',
+          },
+          stroke: {
+            width: 3,
           },
           noData: {
             text: 'Loading...'
@@ -83,12 +87,72 @@
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
 
+                var options2 = {
+          series: [],
+          chart: {
+          height: 350,
+          type: 'line',
+          zoom: {
+            enabled: false
+          },
+        },
+        colors: ['#d70e4a', '#77B6EA', '#545454'],
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          width: [3, 3, 2],
+          curve: 'straight',
+          dashArray: [0, 8, 5]
+        },
+        title: {
+          text: 'Tägliche maximale Anzahl gleichzeitiger Benutzer',
+          align: 'left'
+        },
+        legend: {
+          tooltipHoverFormatter: function(val, opts) {
+            return val + ' - ' + opts.w.globals.series[opts.seriesIndex][opts.dataPointIndex] + ''
+          }
+        },
+        markers: {
+          size: 0,
+          hover: {
+            sizeOffset: 6
+          }
+        },
+        xaxis: {
+          categories: [],
+        },
+        grid: {
+          borderColor: '#f1f1f1',
+        }
+        };
+
+        var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+        chart2.render();
+
 
         $.getJSON('data.json', function(data) {
-          chart.updateSeries([{
-            name: 'Maximale Anzahl gleichzeitiger Benutzer (monatlicher Durchschnitt)',
-            data: data
-          }])
+          chart.updateSeries([
+            {
+              name: 'Maximale Anzahl gleichzeitiger Benutzer (monatlicher Durchschnitt)',
+              data: data["steam_vr"]
+            }
+          ])
+          chart2.updateSeries([
+            {
+              name: "Mai 2020",
+              data: data["2020-05"]
+            },
+            {
+              name: "April 2020",
+              data: data["2020-04"]
+            },
+            {
+              name: "März 2020",
+              data: data["2020-03"]
+            },
+          ])
         });
 
     </script>
