@@ -1,75 +1,98 @@
 <!DOCTYPE html>
-<html lang="de-DE">
-<head>
-    <meta charset="UTF-8">
-    <title>Steam VR Nutzung</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Steam VR Nutzung seit 2016</title>
+
+    <link href="styles.css" rel="stylesheet" />
+
     <style>
-    #chart {
-      max-width: 650px;
-      margin: 35px auto;
-    }
+
+      #chart {
+        max-width: 650px;
+        margin: 35px auto;
+      }
+
     </style>
-</head>
-<body>
-<div id="chart">
-</div>
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script id="rendered-js">
-datum = ['2016-03', '2016-04', '2016-05', '2016-06', '2016-07', '2016-08', '2016-09', '2016-10', '2016-11', '2016-12', '2017-01', '2017-02', '2017-03', '2017-04', '2017-05', '2017-06', '2017-07', '2017-08', '2017-09', '2017-10', '2017-11', '2017-12', '2018-01', '2018-02', '2018-03', '2018-04', '2018-05', '2018-06', '2018-07', '2018-08', '2018-09', '2018-10', '2018-11', '2018-12', '2019-01', '2019-02', '2019-03', '2019-04', '2019-05', '2019-06', '2019-07', '2019-08', '2019-09', '2019-10', '2019-11', '2019-12', '2020-01', '2020-02', '2020-03', '2020-04', '2020-05']
-spieler = [51, 734, 1698, 1960, 2177, 2074, 2104, 2248, 2505, 3592, 3547, 3500, 3194, 3897, 4578, 5059, 5197, 5328, 5318, 5362, 5700, 8558, 8351, 7151, 6856, 8368, 8470, 8871, 8844, 9010, 8661, 8639, 9660, 12161, 12615, 10897, 10999, 10299, 10903, 11791, 11059, 11080, 10474, 10569, 11381, 16552, 15814, 13862, 17981, 15861, 13543]
 
-var options = {
-    series: [{
-        name: "Maximale Anzahl gleichzeitiger Benutzer (monatlicher Durchschnitt)",
-        data: spieler
-    }],
-    chart: {
-        height: 350,
-        type: 'line',
-        locales: [{
-            name: 'en',
-            options: {
-                shortMonths: ['Jan', 'Feb', 'März', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+    <script>
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+        )
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+     <div id="chart"></div>
+
+    <script>
+
+        var options = {
+          series: [],
+          chart: {
+            height: 350,
+            type: 'line',
+            locales: [{
+              name: 'en',
+               options: {
+                 shortMonths: ['Jan', 'Feb', 'März', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+               }
+            }],
+            zoom: {
+              enabled: true
+            },
+          },
+          colors: ['#d70e4a', '#77B6EA', '#545454'],
+          dataLabels: {
+            enabled: false
+          },
+          title: {
+            text: 'Steam VR Nutzung aller VR only Spiele',
+          },
+          noData: {
+            text: 'Loading...'
+          },
+          xaxis: {
+            type: 'datetime',
+            tickPlacement: 'on',
+          },
+          tooltip: {
+            x: {
+                format: 'MMM yyyy'
             }
-        }],
-        zoom: {
-          enabled: false
-        },
-    },
-    colors: ['#d70e4a', '#77B6EA', '#545454'],
-    dataLabels: {
-        enabled: false
-    },
-    stroke: {
-        curve: 'straight'
-    },
-    title: {
-        text: 'Steam VR Nutzung aller VR only Spiele',
-        align: 'left'
-    },
-    grid: {
-        row: {
-            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
-            opacity: 0.5
-        },
-    },
-    xaxis: {
-        type: 'datetime',
-        categories: datum,
-    },
-    tooltip: {
-        x: {
-            format: 'MMM yyyy'
-        }
-    }
+          }
+        };
 
-};
-
-var chart = new ApexCharts(document.querySelector("#chart"), options);
-chart.render();
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
 
 
-</script>
-</body>
+        $.getJSON('data.json', function(data) {
+          chart.updateSeries([{
+            name: 'Maximale Anzahl gleichzeitiger Benutzer (monatlicher Durchschnitt)',
+            data: data
+          }])
+        });
+
+    </script>
+
+
+  </body>
 </html>
