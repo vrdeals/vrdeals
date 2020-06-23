@@ -20,6 +20,14 @@
         "article_name": "A-Tech Cybernetic VR"
     },
     {
+        "id": 456,
+        "article_name": "Abode"
+    },
+    {
+        "id": 455,
+        "article_name": "Abode 2"
+    },
+    {
         "id": 276,
         "article_name": "Above - VR"
     },
@@ -176,6 +184,10 @@
         "article_name": "Bizarre Barber"
     },
     {
+        "id": 460,
+        "article_name": "Black Hat Cooperative"
+    },
+    {
         "id": 381,
         "article_name": "Blind"
     },
@@ -320,8 +332,16 @@
         "article_name": "Color Space"
     },
     {
+        "id": 475,
+        "article_name": "Combat VR"
+    },
+    {
         "id": 199,
         "article_name": "Commando"
+    },
+    {
+        "id": 457,
+        "article_name": "Conductor"
     },
     {
         "id": 349,
@@ -424,6 +444,10 @@
         "article_name": "Death Gasp VR"
     },
     {
+        "id": 464,
+        "article_name": "Death Horizon"
+    },
+    {
         "id": 403,
         "article_name": "Death Horizon: Reloaded"
     },
@@ -506,6 +530,10 @@
     {
         "id": 196,
         "article_name": "Dodgeblock"
+    },
+    {
+        "id": 465,
+        "article_name": "Doors of Silence - the prologue"
     },
     {
         "id": 331,
@@ -868,6 +896,10 @@
         "article_name": "Karnage Chronicles"
     },
     {
+        "id": 471,
+        "article_name": "Karts Race VR"
+    },
+    {
         "id": 413,
         "article_name": "Kev's Compulsion"
     },
@@ -920,6 +952,10 @@
         "article_name": "Labyrinth Trap"
     },
     {
+        "id": 459,
+        "article_name": "Last Labyrinth"
+    },
+    {
         "id": 174,
         "article_name": "Last Line VR: A Zombie Defense Game"
     },
@@ -962,6 +998,10 @@
     {
         "id": 139,
         "article_name": "Magic Guardian"
+    },
+    {
+        "id": 473,
+        "article_name": "Magic Smash"
     },
     {
         "id": 46,
@@ -1042,6 +1082,10 @@
     {
         "id": 252,
         "article_name": "NIGHTSTAR: Alliance"
+    },
+    {
+        "id": 461,
+        "article_name": "Noda"
     },
     {
         "id": 261,
@@ -1196,6 +1240,10 @@
         "article_name": "Prison Boss VR"
     },
     {
+        "id": 466,
+        "article_name": "Prison VR"
+    },
+    {
         "id": 420,
         "article_name": "Pro Gun"
     },
@@ -1304,6 +1352,18 @@
         "article_name": "Robinson: The Journey"
     },
     {
+        "id": 469,
+        "article_name": "Roller Coaster"
+    },
+    {
+        "id": 470,
+        "article_name": "Roller Coaster Apocalypse"
+    },
+    {
+        "id": 468,
+        "article_name": "Roller Coaster Egypt VR"
+    },
+    {
         "id": 278,
         "article_name": "RollerPlay"
     },
@@ -1350,6 +1410,10 @@
     {
         "id": 76,
         "article_name": "Shadow Legend VR"
+    },
+    {
+        "id": 458,
+        "article_name": "Shadow Point"
     },
     {
         "id": 152,
@@ -1416,12 +1480,20 @@
         "article_name": "Spacescape"
     },
     {
+        "id": 467,
+        "article_name": "Spirit Journey"
+    },
+    {
         "id": 406,
         "article_name": "Sprint Vector"
     },
     {
         "id": 18,
         "article_name": "STAND OUT : VR Battle Royale"
+    },
+    {
+        "id": 454,
+        "article_name": "Star Shelter"
     },
     {
         "id": 399,
@@ -1518,6 +1590,10 @@
     {
         "id": 86,
         "article_name": "The Hospital: Allison's Diary"
+    },
+    {
+        "id": 463,
+        "article_name": "The Lost Bear"
     },
     {
         "id": 341,
@@ -1752,6 +1828,10 @@
         "article_name": "Warchasm"
     },
     {
+        "id": 472,
+        "article_name": "Water Slides VR"
+    },
+    {
         "id": 347,
         "article_name": "Weapons Genius VR"
     },
@@ -1806,6 +1886,14 @@
     {
         "id": 248,
         "article_name": "Zero Caliber VR"
+    },
+    {
+        "id": 462,
+        "article_name": "Zero Killed"
+    },
+    {
+        "id": 474,
+        "article_name": "Zombie Fun"
     },
     {
         "id": 283,
