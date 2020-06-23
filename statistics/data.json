@@ -948,5 +948,43 @@
             "x": "31",
             "y": 15410
         }
-    ]
+    ],
+    "top10": {
+        "games": [
+            "Beat Saber",
+            "Half-Life: Alyx",
+            "Pavlov VR",
+            "Rec Room",
+            "Blade and Sorcery",
+            "BONEWORKS",
+            "Hot Dogs",
+            "Skyrim VR",
+            "Bigscreen Beta",
+            "Onward"
+        ],
+        "max_players": [
+            2625,
+            2369,
+            1140,
+            787,
+            698,
+            516,
+            489,
+            367,
+            314,
+            286
+        ],
+        "avg_players": [
+            2250.0,
+            1666.0,
+            1005.0,
+            710.0,
+            599.0,
+            410.0,
+            387.0,
+            295.0,
+            169.0,
+            189.0
+        ]
+    }
 }
