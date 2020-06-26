@@ -1,7 +1,5 @@
 /**
  * leaflet plugin for plain image map projection
- * @copyright 2016- commenthol
- * @license MIT
  */
 /* globals define */
 
