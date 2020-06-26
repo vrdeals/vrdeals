@@ -148,6 +148,10 @@
         "article_name": "Adventure Time: Magic Man's Head Games"
     },
     {
+        "id": 1599,
+        "article_name": "Adventures in the Light & Dark"
+    },
+    {
         "id": 20,
         "article_name": "Aeon"
     },
@@ -1074,6 +1078,10 @@
     {
         "id": 1176,
         "article_name": "Conveyor VR"
+    },
+    {
+        "id": 1594,
+        "article_name": "Copter and Sky"
     },
     {
         "id": 855,
@@ -2780,6 +2788,10 @@
         "article_name": "Jam Studio VR"
     },
     {
+        "id": 1598,
+        "article_name": "Jam Studio VR  -- Music Fundamentals Series"
+    },
+    {
         "id": 1553,
         "article_name": "Jam Studio VR - Education & Health Care Edition"
     },
@@ -3280,6 +3292,10 @@
         "article_name": "Maze Run VR"
     },
     {
+        "id": 1600,
+        "article_name": "Meditation Journey: VR Zen Garden"
+    },
+    {
         "id": 723,
         "article_name": "Megadimension Neptunia VIIR"
     },
@@ -3434,6 +3450,10 @@
     {
         "id": 635,
         "article_name": "Naked Sun"
+    },
+    {
+        "id": 1597,
+        "article_name": "Naklua VR"
     },
     {
         "id": 251,
@@ -3698,6 +3718,10 @@
     {
         "id": 57,
         "article_name": "PANTY SLIDE VR"
+    },
+    {
+        "id": 1596,
+        "article_name": "Panzer Crew VR"
     },
     {
         "id": 411,
@@ -5204,6 +5228,10 @@
         "article_name": "The Magic Elevator"
     },
     {
+        "id": 1595,
+        "article_name": "The Midnight Sanctuary"
+    },
+    {
         "id": 426,
         "article_name": "The Morrigan"
     },
@@ -6048,12 +6076,20 @@
         "article_name": "Waddle Home"
     },
     {
+        "id": 1593,
+        "article_name": "Wakamarina Valley, New Zealand"
+    },
+    {
         "id": 568,
         "article_name": "Waltz of the Wizard: Extended Edition"
     },
     {
         "id": 77,
         "article_name": "Wands"
+    },
+    {
+        "id": 1592,
+        "article_name": "WAR DUST | 32 vs 32 Battles"
     },
     {
         "id": 1232,
