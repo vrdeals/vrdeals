@@ -1,0 +1,175 @@
+/* style.css */
+
+html {
+  overflow-y: scroll;
+}
+
+.active {
+    color: #E31A4B;
+}
+
+.abstand-oben {
+    margin-top: -15px;
+}
+  
+.badge-danger {
+    background-color: #E31A4B;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:600;
+}
+
+.badge-dark {
+    background-color: #223243;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:600;
+}
+
+.btn-outline-danger {
+    border-color: #E31A4B;
+    color: #E31A4B;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+
+}
+
+.container{
+    max-width: 767px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+
+.dropdown.show > div > a.dropdown-item.active {
+  background-color: #E31A4B
+;
+}
+
+.dropdown.show > div > a.dropdown-item.active:hover {
+  color: white;
+}
+
+.headline{
+    padding-top: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:700;
+}
+
+.card{
+    max-width: 767px;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+}
+
+.card-img{
+    width: 100% !important;
+    height: 136px!important;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    object-fit: cover;
+}
+
+.card-link {
+    color: black;
+}
+.card-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.card-title {
+    margin-bottom: 0 !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:700;
+}
+
+.subtitle {
+    margin-top: -5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+    color: #E31A4B
+}
+
+.card-text {
+    flex-direction: column
+}
+
+.fixed-row-bottom { position: fixed; bottom: 0;}
+
+@media (min-width: 767px) {
+    .navbar {
+        height:50px;
+    }
+}
+
+.nav a{
+    color:grey;
+   }
+
+.nav a:hover {
+    color: #E31A4B
+;
+   }
+
+.pagination {
+    padding-top: 10px;
+}
+
+.pagination a {
+    color:grey;
+   }
+
+.pagination a:hover {
+    color:grey;
+}
+
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #E31A4B
+;
+    border-color: #E31A4B
+;
+  }
+
+.prices {
+    text-align: right;
+    margin-top: -6px;
+}  
+
+.sale-price {
+    text-align: right;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:700;
+    font-size: 30px;
+}
+
+.strike {
+    text-decoration:line-through;
+    margin-right: -7px;
+}
+
+.search {
+    padding-top: 15px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}

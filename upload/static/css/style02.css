@@ -1,0 +1,116 @@
+/* style.css */
+
+html {
+  overflow-y: scroll;
+}
+
+.active {
+    color: #d70e4a;
+}
+
+.badge-danger {
+    background-color: #d70e4a;
+}
+
+.btn-outline-danger {
+    border-color: #d70e4a;
+    color: #d70e4a
+}
+
+.container{
+    max-width: 767px;
+    padding-top: 15px;
+    min-height: 100%;
+}
+
+.dropdown.show > div > a.dropdown-item.active {
+  background-color: #d70e4a;
+}
+
+.dropdown.show > div > a.dropdown-item.active:hover {
+  color: white;
+}
+
+.headline{
+    padding-top: 20px;
+}
+
+.card{
+    max-width: 767px;
+}
+
+.card-img{
+    width: 100% !important;
+    height: 136px!important;
+    object-fit: cover;
+}
+
+.card{
+    max-width: 767px;
+}
+
+.card-link {
+    color: black;
+}
+.card-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media (min-width: 767px) {
+    .navbar {
+        height:50px;
+    }
+}
+
+
+.nav a{
+    color:grey;
+   }
+
+.nav a:hover {
+    color: #d70e4a;
+   }
+
+.pagination {
+    padding-top: 10px;
+}
+
+.pagination a {
+    color:grey;
+   }
+
+.pagination a:hover {
+    color:grey;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #d70e4a;
+    border-color: #d70e4a;
+  }
+
+.strike {
+    text-decoration:line-through;
+}
+
+.search {
+    padding-top: 15px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
