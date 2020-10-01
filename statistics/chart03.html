@@ -82,11 +82,11 @@
         $.getJSON('data.json', function(response) {
           chart3.updateSeries([
             {
-              name: "Maximal gleichzeitige Benutzer im August",
+              name: "Maximal gleichzeitige Benutzer im September",
               data: response["top10"]["max_players"]
             },
             {
-              name: "Durchschnittlicher Höchstwert im August",
+              name: "Durchschnittlicher Höchstwert im September",
               data: response["top10"]["avg_players"]
             }
           ])
