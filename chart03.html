@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Steam VR Statistiken</title>
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <script>
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+        )
+      window.Promise ||
+        document.write(
+          '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+        )
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+     <div id="chart3"></div>
+    <script>
+        var options3 = {
+                series: [],
+                    chart: {
+                    type: 'bar',
+                    height: 430,
+                    toolbar: {
+                        show: false,
+                    }
+                },
+                subtitle: {
+                  text: "© MIXED.DE",
+                  align: 'right',
+                  margin: 10,
+                  offsetX: 0,
+                  offsetY: 375,
+                  floating: false,
+                  style: {
+                     fontSize:  '12px',
+                     fontWeight:  'normal',
+                     fontFamily:  undefined,
+                     color:  '#9699a2'
+                  },
+                },
+                colors: ['#d70e4a', '#545454'],
+                noData: {
+                    text: 'Loading...'
+                },
+                dataLabels: {
+                    enabled: false,
+                    offsetX: -6,
+                    style: {
+                        fontSize: '12px',
+                        colors: ['#fff']
+                    }
+                },
+                title: {
+                    text: 'Steam VR Top 10 im Januar',
+                    align: 'left',
+                    margin: 10,
+                },
+            };
+
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
+        chart3.render();
+
+
+        $.getJSON('data.json', function(response) {
+          chart3.updateSeries([
+            {
+              name: "Maximal gleichzeitige Benutzer im Januar",
+              data: response["top10"]["max_players"]
+            },
+            {
+              name: "Durchschnittlicher Höchstwert im Januar",
+              data: response["top10"]["avg_players"]
+            }
+          ])
+          chart3.updateOptions({
+            xaxis: {
+              categories: response["top10"]["games"],
+            },
+          })
+        });
+
+    </script>
+
+
+  </body>
+</html>
