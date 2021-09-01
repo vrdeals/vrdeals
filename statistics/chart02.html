@@ -92,16 +92,16 @@
         $.getJSON('data.json', function(response) {
           chart2.updateSeries([
             {
+              name: "August 2021",
+              data: response["2021-08"]
+            },
+            {
               name: "Juli 2021",
               data: response["2021-07"]
             },
             {
               name: "Juni 2021",
               data: response["2021-06"]
-            },
-            {
-              name: "Mai 2021",
-              data: response["2021-05"]
             }
           ])
         });
