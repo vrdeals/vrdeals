@@ -69,7 +69,7 @@
                     }
                 },
                 title: {
-                    text: 'Steam VR Top 10 im März',
+                    text: 'Steam VR Top 10 im Aprill',
                     align: 'left',
                     margin: 10,
                 },
@@ -82,11 +82,11 @@
         $.getJSON('data.json', function(response) {
           chart3.updateSeries([
             {
-              name: "Maximal gleichzeitige Benutzer im März",
+              name: "Maximal gleichzeitige Benutzer im Aprill",
               data: response["top10"]["max_players"]
             },
             {
-              name: "Durchschnittlicher Höchstwert im März",
+              name: "Durchschnittlicher Höchstwert im Aprill",
               data: response["top10"]["avg_players"]
             }
           ])
