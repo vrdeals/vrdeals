@@ -1,26 +1,26 @@
 [
-      {
-        track: {
-          name: "Voice of the New Generation",
-          popularity: 25,
-          artists: [
-            {
-              name: "Santa Cruz"
-            }
-          ]
+    {
+        "track": {
+            "name": "Voice of the New Generation",
+            "popularity": 25,
+            "artists": [
+                {
+                    "name": "Santa Cruz"
+                }
+            ]
         },
-        played_at: "2018-06-08T16:16:13.185Z"
-      },
-      {
-        track: {
-          name: "Shorty Wanna Be A Thug",
-          popularity: 59,
-          artists: [
-            {
-              name: "2Pac"
-            }
-          ]
+        "played_at": "2018-06-08T16:16:13.185Z"
+    },
+    {
+        "track": {
+            "name": "Shorty Wanna Be A Thug",
+            "popularity": 59,
+            "artists": [
+                {
+                    "name": "2Pac"
+                }
+            ]
         },
-        played_at: "2018-06-08T14:11:02Z"
-      }
-    ]
+        "played_at": "2018-06-08T14:11:02Z"
+    }
+]
