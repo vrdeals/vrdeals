@@ -92,16 +92,16 @@
         $.getJSON('data.json', function(response) {
           chart2.updateSeries([
             {
-              name: "April 2023",
+              name: "Mai 2023",
+              data: response["2023-05"]
+            },
+            {
+              name: "April 2022",
               data: response["2023-04"]
             },
             {
               name: "März 2022",
               data: response["2023-03"]
-            },
-            {
-              name: "Februar 2022",
-              data: response["2023-02"]
             }
           ])
         });
